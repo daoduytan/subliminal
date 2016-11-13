@@ -1184,6 +1184,9 @@ body {
     display: block;
     padding: 5px 0;
   }
+  .hero_title {
+    font-size: 25px;
+  }
   .hero_title span {
     display: block;
     margin: 0 0 10px;
