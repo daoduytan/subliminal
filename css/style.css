@@ -522,7 +522,7 @@ body {
 }
 
 .header .container {
-  max-width: 1500px;
+  max-width: 82%;
 }
 
 .header .logo {
@@ -970,7 +970,13 @@ body {
 
 @media (max-width: 1600px) {
   .header .container {
-    max-width: 1300px;
+    max-width: 82%;
+  }
+  .header .logo {
+    max-width: 175px;
+  }
+  .nav {
+    margin-top: 54px;
   }
   .testimonial_item-inner {
     min-height: 420px;
@@ -1057,7 +1063,10 @@ body {
     font-size: 16px;
   }
   .header .logo img {
-    width: 150px;
+    max-width: 150px;
+  }
+  .header .container {
+    max-width: 100%;
   }
   .nav {
     margin-top: 45px;
@@ -1154,6 +1163,9 @@ body {
   .hidden-sm {
     display: none;
   }
+  .testimonial_item {
+    width: 100%;
+  }
   .testimonial_item:nth-child(3), .testimonial_item:nth-child(4) {
     margin-bottom: 0;
   }
@@ -1201,20 +1213,20 @@ body {
   .btn-nav span {
     top: 12px;
   }
-  .header .logo img {
+  .logo img {
     width: 100px;
   }
-  .header .nav {
+  .nav {
     float: none;
     display: none;
     clear: both;
     border-top: 1px solid #379bbf;
     padding: 5px 0;
   }
-  .header .nav ul li {
+  .nav ul li {
     display: block;
   }
-  .header .nav ul li a {
+  .nav ul li a {
     font-size: 14px;
     display: block;
     padding: 5px 0;
