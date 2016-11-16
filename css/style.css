@@ -1147,6 +1147,80 @@ body {
   margin: 0 0 5px;
 }
 
+.aff {
+  font-size: 24px;
+}
+
+.aff_hero {
+  background: url(../img/bg-aff.jpg) no-repeat top center;
+  background-size: cover;
+  padding: 50px 0 60px;
+}
+
+.aff_hero h2 {
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.aff_hero p {
+  font-size: 25px;
+}
+
+.aff_hero ul {
+  list-style: none;
+  padding: 15px 0;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.79);
+  width: 95%;
+  max-width: 910px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.aff_hero ul li {
+  float: left;
+  width: 33.33%;
+  border-right: 5px solid #fff;
+  padding: 0 30px;
+}
+
+.aff_hero ul li:last-child {
+  border: none;
+}
+
+.aff_hero ul li .img {
+  margin: 0 0 15px;
+}
+
+.aff_hero ul li .img img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
+.aff_text {
+  background: url(../img/bg-aff1.jpg) no-repeat top center;
+  padding: 50px 0 100px;
+}
+
+.aff_text p {
+  margin: 0 0 40px;
+}
+
+.aff_text p strong {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.aff_text .img-btn {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
 @media (min-width: 1440px) {
   .hero_text .text {
     margin-top: 7%;
@@ -1320,6 +1394,9 @@ body {
   .faqs_intro-2 .img {
     margin-left: 0;
   }
+  .aff_hero p {
+    font-size: 22px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -1460,6 +1537,15 @@ body {
   }
   .faqs_intro-5-s ul {
     padding-left: 15px;
+  }
+  .aff {
+    font-size: 18px;
+  }
+  .aff_hero h2 {
+    font-size: 50px;
+  }
+  .aff_hero p {
+    font-size: 18px;
   }
 }
 
@@ -1632,6 +1718,26 @@ body {
   .faqs_intro-5-s ul {
     padding-left: 0;
   }
+  .aff_hero h2 {
+    font-size: 30px;
+  }
+  .aff_hero ul {
+    max-width: 400px;
+    margin: auto;
+    padding: 15px;
+  }
+  .aff_hero ul li {
+    float: none;
+    width: 100%;
+    border: none;
+    border-bottom: 5px solid #fff;
+    padding: 0 0 20px;
+    margin: 0 0 20px;
+  }
+  .aff_hero ul li:last-child {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media (max-width: 650px) {
@@ -1654,5 +1760,8 @@ body {
   }
   .testimonial_video-item:last-child {
     margin: 0;
+  }
+  .aff_hero h2 {
+    font-size: 27px;
   }
 }
